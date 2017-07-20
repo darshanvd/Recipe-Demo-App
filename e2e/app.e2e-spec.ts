@@ -1,10 +1,10 @@
-import { CodecraftPage } from './app.po';
+import { codeProPage } from './app.po';
 
-describe('codecraft App', function() {
-  let page: CodecraftPage;
+describe('codePro App', function() {
+  let page: codeProPage;
 
   beforeEach(() => {
-    page = new CodecraftPage();
+    page = new codeProPage();
   });
 
   it('should display message saying app works', () => {

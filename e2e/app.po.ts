@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class CodecraftPage {
+export class codeProPage {
   navigateTo() {
     return browser.get('/');
   }
